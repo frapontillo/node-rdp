@@ -1,5 +1,10 @@
 node-rdp
 ========
+
+[![NPM version][npm-version-image]][npm-url]
+[![Apache License][license-image]][license-url]
+[![NPM downloads][npm-downloads-image]][npm-url]
+
 _Microsoft Remote Desktop Protocol wrapper for NodeJS_
 
 Install via `npm`:
@@ -120,6 +125,7 @@ the returned promise to never be resolved. Eventually, after a timespan that ran
 minute, the process finally closes, returning control to the Node process.
 
 ![I know, right?](http://i.imgur.com/nLKkvte.gif)
+
 _I know, right?_
 
 If you need absolute certainty about the handling of the process you can enable `safeMode` among the configuration
@@ -168,3 +174,10 @@ all of its children, including the RDP client.
    See the License for the specific language governing permissions and
    limitations under the License.
 ```
+
+[license-image]: http://img.shields.io/badge/license-Apache_2.0-blue.svg?style=flat
+[license-url]: LICENSE
+
+[npm-url]: https://npmjs.org/package/node-rdp
+[npm-version-image]: http://img.shields.io/npm/v/node-rdp.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/node-rdp.svg?style=flat
