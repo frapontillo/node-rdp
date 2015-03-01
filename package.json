@@ -1,0 +1,41 @@
+{
+  "name": "node-rdp",
+  "version": "1.0.0",
+  "description": "Microsoft Remote Desktop Protocol wrapper for NodeJS",
+  "main": "lib/rdp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "node-rdp": "lib/rdp-cli.js"
+  },
+  "keywords": [
+    "rdp",
+    "microsoft",
+    "remote desktop",
+    "remote desktop protocol",
+    "mstsc",
+    "terminal server"
+  ],
+  "homepage": "https://github.com/frapontillo/node-rdp",
+  "bugs": "https://github.com/frapontillo/node-rdp/issues",
+  "author": {
+    "name": "Francesco Pontillo",
+    "email": "francescopontillo@gmail.com",
+    "url": "https://github.com/frapontillo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frapontillo/node-rdp.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "q": "^1.2.0",
+    "commander": "^2.6.0",
+    "lodash.defaults": "^3.0.0",
+    "sanitize-filename": "^1.1.5"
+  }
+}
