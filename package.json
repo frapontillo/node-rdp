@@ -1,6 +1,6 @@
 {
   "name": "node-rdp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Microsoft Remote Desktop Protocol wrapper for NodeJS",
   "main": "lib/rdp.js",
   "scripts": {
